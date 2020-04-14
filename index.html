@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chats｜Kakao clone</title>
   </head>
-  <body>
+  <body class="nopaddingbody">
+    <div class="header-wrapper2"> <!-- 이거 여러군데 다 넣어야 할듯? -->
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54 </span>
@@ -36,10 +37,13 @@
           <i class="far fa-comment"></i>
         </span>
         <span class="header__icon">
+          <a href="settings.html">
           <i class="fas fa-cog"></i>
+          </a>
         </span>
       </div>
     </header>
+    </div>
     <main class="chats">
       <ul class="chats__list">
         <li class="chats__chat chat">
@@ -50,6 +54,9 @@
                 <div class="friend__content">
                   <span class="friend__name">
                     Lynn
+                    <span class="bellspan">
+                      <i class="fas fa-bell-slash bell"></i>
+                    </span>
                   </span>
                   <span class="friend__bottom-text">
                     Going home!

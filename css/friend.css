@@ -72,3 +72,8 @@
   background-color: #f5f5f5;
   border-radius: 5px;
 }
+
+.bell {
+  font-size: 12px;
+  color: grey;
+}
